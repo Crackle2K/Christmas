@@ -1,0 +1,111 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-16 12:36:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:flower_forest": "2025-11-16 15:02:14 -0500",
+      "minecraft:beach": "2025-11-16 15:41:55 -0500",
+      "minecraft:ocean": "2025-11-16 15:43:14 -0500",
+      "minecraft:sunflower_plains": "2025-11-16 12:36:10 -0500",
+      "minecraft:river": "2025-11-16 14:51:11 -0500",
+      "minecraft:snowy_plains": "2025-11-16 12:36:35 -0500",
+      "minecraft:plains": "2025-11-16 14:50:06 -0500"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-11-16 14:36:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-11-16 14:36:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-11-16 14:38:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-11-16 14:38:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-11-16 14:51:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-11-16 14:51:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-11-16 14:51:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-11-16 14:51:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-11-16 14:51:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-11-16 15:01:30 -0500"
+    },
+    "done": true
+  },
+  "christmas:naughty_list": {
+    "criteria": {
+      "naughty_list_0": "2025-11-16 15:01:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-11-16 15:01:30 -0500"
+    },
+    "done": true
+  },
+  "christmas:nice_list": {
+    "criteria": {
+      "nice_list_0": "2025-11-16 15:01:56 -0500"
+    },
+    "done": true
+  },
+  "christmas:spicy": {
+    "criteria": {
+      "spicy_0": "2025-11-16 15:06:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-11-16 15:06:00 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

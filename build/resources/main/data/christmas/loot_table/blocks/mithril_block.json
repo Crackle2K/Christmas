@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "christmas:blocks/mithril_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "christmas:mithril_block"
+        }
+      ]
+    }
+  ]
+}

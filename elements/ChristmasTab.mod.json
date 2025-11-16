@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Christmas",
+    "icon": {
+      "value": "CUSTOM:CandyCane"
+    },
+    "showSearch": true
+  }
+}

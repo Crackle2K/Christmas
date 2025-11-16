@@ -1,0 +1,82 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-16 15:45:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-11-16 15:45:11 -0500",
+      "minecraft:plains": "2025-11-16 15:45:21 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-11-16 15:46:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-11-16 15:46:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-11-16 15:46:17 -0500"
+    },
+    "done": true
+  },
+  "christmas:spicy": {
+    "criteria": {
+      "spicy_0": "2025-11-16 15:53:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-11-16 15:53:58 -0500"
+    },
+    "done": true
+  },
+  "christmas:naughty_list": {
+    "criteria": {
+      "naughty_list_0": "2025-11-16 15:53:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-11-16 15:53:41 -0500"
+    },
+    "done": true
+  },
+  "christmas:nice_list": {
+    "criteria": {
+      "nice_list_0": "2025-11-16 15:53:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-11-16 15:53:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-11-16 15:53:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-11-16 15:53:41 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

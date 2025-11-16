@@ -1,0 +1,15 @@
+/loot give @p loot christmas:chests/christmas_bundle
+/give @s christmas:present
+/give @s christmas:present 64
+/clear @s
+/give @s christmas:present
+/loot give @p loot christmas:chests/christmas_bundle
+/give @s christmas:suspicious_present
+/gamemode spectator
+/effect give @s minecraft:night_vision infinite 255 true
+/gamemode spectator
+/effect give @s minecraft:night_vision infinite 255 true
+/gamemode creative
+/give @s minecraft:iron_pickaxe
+/gamemode survival
+/gamemode creative

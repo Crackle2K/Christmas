@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "christmas:candy_cane"
+    },
+    "title": {
+      "translate": "advancements.spicy.title"
+    },
+    "description": {
+      "translate": "advancements.spicy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spicy_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "christmas:candy_cane"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}
