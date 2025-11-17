@@ -153,6 +153,81 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "MithrilIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/crackle/christmas/item/MithrilIngotItem.java",
+          "src/main/resources/assets/christmas/models/item/mithril_ingot.json",
+          "src/main/resources/assets/christmas/items/mithril_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "RawMithril",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_mithril",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/christmas/models/item/raw_mithril.json",
+          "src/main/resources/assets/christmas/items/raw_mithril.json",
+          "src/main/java/net/crackle/christmas/item/RawMithrilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MithrilOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/christmas/loot_table/blocks/mithril_ore.json",
+          "src/main/resources/data/christmas/worldgen/placed_feature/mithril_ore.json",
+          "src/main/resources/assets/christmas/items/mithril_ore.json",
+          "src/main/java/net/crackle/christmas/block/MithrilOreBlock.java",
+          "src/main/resources/assets/christmas/models/block/mithril_ore.json",
+          "src/main/resources/data/christmas/neoforge/biome_modifier/mithril_ore_biome_modifier.json",
+          "src/main/resources/assets/christmas/models/item/mithril_ore.json",
+          "src/main/resources/data/christmas/worldgen/configured_feature/mithril_ore.json",
+          "src/main/resources/assets/christmas/blockstates/mithril_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/christmas/models/block/mithril_block.json",
+          "src/main/java/net/crackle/christmas/block/MithrilBlockBlock.java",
+          "src/main/resources/assets/christmas/models/item/mithril_block.json",
+          "src/main/resources/data/christmas/loot_table/blocks/mithril_block.json",
+          "src/main/resources/assets/christmas/items/mithril_block.json",
+          "src/main/resources/assets/christmas/blockstates/mithril_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CandyCaneTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_cane_trade",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -161,6 +236,13 @@
     "ITEMS:minecraft:piglin_loved": [
       "~CUSTOM:SuspiciousPresent",
       "~CUSTOM:Present"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MithrilBlock",
+      "~CUSTOM:MithrilOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MithrilOre"
     ]
   },
   "tab_element_order": {},
@@ -175,11 +257,17 @@
       "advancements.naughty_list.title": "Naughty List",
       "advancements.spicy.title": "Spicy!",
       "advancements.spicy.descr": "But also kind of sweet.",
-      "item_group.christmas.christmas_tab": "Christmas"
+      "item_group.christmas.christmas_tab": "Christmas",
+      "item.christmas.mithril_ingot": "Mithril Ingot",
+      "item.christmas.raw_mithril": "Raw Mithril",
+      "item.christmas.mithril_ore": "Mithril Ore",
+      "item.christmas.mithril_block": "Mithril Block"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/crackle/christmas/init/ChristmasModTrades.java",
+      "src/main/java/net/crackle/christmas/init/ChristmasModBlocks.java",
       "src/main/java/net/crackle/christmas/init/ChristmasModItems.java",
       "src/main/java/net/crackle/christmas/ChristmasMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",

@@ -218,16 +218,6 @@
           "src/main/resources/assets/christmas/blockstates/mithril_block.json"
         ]
       }
-    },
-    {
-      "name": "CandyCaneTrade",
-      "type": "villagertrade",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_cane_trade",
-      "metadata": {
-        "files": []
-      }
     }
   ],
   "variable_elements": [],
@@ -266,7 +256,6 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/crackle/christmas/init/ChristmasModTrades.java",
       "src/main/java/net/crackle/christmas/init/ChristmasModBlocks.java",
       "src/main/java/net/crackle/christmas/init/ChristmasModItems.java",
       "src/main/java/net/crackle/christmas/ChristmasMod.java",
