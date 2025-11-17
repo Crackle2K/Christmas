@@ -1,0 +1,23 @@
+# --- Generated files and build artifacts ---
+build/
+bin/
+tmp/
+gradle/
+local.properties
+gradle.properties # Unless you have specific common configurations
+.gradle/
+
+# --- IDE and operating system specific files ---
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- MCreator specific files ---
+.mcreator/ # Local settings and cache
+workspace.xml
+# You may want to exclude some files in the user's mods directory,
+# but this is not recommended as it can break collaborative features.
+# If you are sure, add your mod folder to this file.
+# *.jar # if you want to ignore the compiled jar
+# logs/
