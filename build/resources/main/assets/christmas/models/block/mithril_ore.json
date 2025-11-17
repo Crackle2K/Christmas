@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "christmas:block/mythril_ore",
-    "particle": "christmas:block/mythril_ore"
-  },
-  "render_type": "solid"
-}
