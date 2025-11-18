@@ -22,7 +22,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.crackle.christmas.init.ChristmasModTabs;
 import net.crackle.christmas.init.ChristmasModItems;
-import net.crackle.christmas.init.ChristmasModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -47,7 +46,6 @@ public class ChristmasMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-		ChristmasModBlocks.REGISTRY.register(modEventBus);
 		ChristmasModItems.REGISTRY.register(modEventBus);
 		ChristmasModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init

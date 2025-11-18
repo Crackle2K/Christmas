@@ -36,15 +36,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_coal": "2025-11-16 15:53:58 -0500"
-    },
-    "done": true
-  },
-  "christmas:naughty_list": {
-    "criteria": {
-      "naughty_list_0": "2025-11-16 15:53:58 -0500"
+      "consumed_item": "2025-11-16 15:53:21 -0500"
     },
     "done": true
   },
@@ -60,21 +54,27 @@
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
-      "consumed_item": "2025-11-16 15:53:21 -0500"
+      "has_snowball": "2025-11-16 15:53:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-11-16 15:53:58 -0500"
+    },
+    "done": true
+  },
+  "christmas:naughty_list": {
+    "criteria": {
+      "naughty_list_0": "2025-11-16 15:53:58 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2025-11-16 15:53:58 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/snow_block": {
-    "criteria": {
-      "has_snowball": "2025-11-16 15:53:41 -0500"
     },
     "done": true
   },

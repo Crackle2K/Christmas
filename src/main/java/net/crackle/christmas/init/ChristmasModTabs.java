@@ -20,9 +20,5 @@ public class ChristmasModTabs {
 				tabData.accept(ChristmasModItems.CANDY_CANE.get());
 				tabData.accept(ChristmasModItems.PRESENT.get());
 				tabData.accept(ChristmasModItems.SUSPICIOUS_PRESENT.get());
-				tabData.accept(ChristmasModItems.MITHRIL_INGOT.get());
-				tabData.accept(ChristmasModItems.RAW_MITHRIL.get());
-				tabData.accept(ChristmasModBlocks.MITHRIL_ORE.get().asItem());
-				tabData.accept(ChristmasModBlocks.MITHRIL_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

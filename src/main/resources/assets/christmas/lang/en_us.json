@@ -8,9 +8,5 @@
   "advancements.naughty_list.title": "Naughty List",
   "advancements.spicy.title": "Spicy!",
   "advancements.spicy.descr": "But also kind of sweet.",
-  "item_group.christmas.christmas_tab": "Christmas",
-  "item.christmas.mithril_ingot": "Mithril Ingot",
-  "item.christmas.raw_mithril": "Raw Mithril",
-  "item.christmas.mithril_ore": "Mithril Ore",
-  "item.christmas.mithril_block": "Mithril Block"
+  "item_group.christmas.christmas_tab": "Christmas"
 }
